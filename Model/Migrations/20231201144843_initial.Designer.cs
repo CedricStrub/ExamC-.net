@@ -11,15 +11,15 @@ using Model;
 namespace Model.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231123085920_addTeacherLink")]
-    partial class addTeacherLink
+    [Migration("20231201144843_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.13")
+                .HasAnnotation("ProductVersion", "7.0.14")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -224,6 +224,9 @@ namespace Model.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
+                    b.Property<DateOnly>("Birthdate")
+                        .HasColumnType("date");
+
                     b.Property<string>("Firstname")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -265,7 +268,8 @@ namespace Model.Migrations
 
                     b.Property<string>("Firstname")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasMaxLength(2)
+                        .HasColumnType("varchar(2)");
 
                     b.Property<Guid?>("GroupsId")
                         .HasColumnType("char(36)");

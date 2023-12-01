@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tuf\\Source\\Repos\\ExamC-.net\\Tests\\Tests.csproj": {}
+    "C:\\Users\\tuf\\source\\repos\\ExamC-.net\\Tests\\Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tuf\\Source\\Repos\\ExamC-.net\\Tests\\Tests.csproj": {
+    "C:\\Users\\tuf\\source\\repos\\ExamC-.net\\Tests\\Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tuf\\Source\\Repos\\ExamC-.net\\Tests\\Tests.csproj",
+        "projectUniqueName": "C:\\Users\\tuf\\source\\repos\\ExamC-.net\\Tests\\Tests.csproj",
         "projectName": "Tests",
-        "projectPath": "C:\\Users\\tuf\\Source\\Repos\\ExamC-.net\\Tests\\Tests.csproj",
+        "projectPath": "C:\\Users\\tuf\\source\\repos\\ExamC-.net\\Tests\\Tests.csproj",
         "packagesPath": "C:\\Users\\tuf\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\tuf\\Source\\Repos\\ExamC-.net\\Tests\\obj\\",
         "projectStyle": "PackageReference",

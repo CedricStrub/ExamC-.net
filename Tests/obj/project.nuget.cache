@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9XwSGf+pZr482SnPRPcI6DPL/wfexMMEoKX0MdCZFSRo6uCCbpfxLl50eEnMUi8QR3uAa0zJPFwyL7TSTe16dA==",
+  "dgSpecHash": "Xphyo9rxZCo79a+IBFDxBMZKZHd8OJLv/5R54loL6WIdfWvbSh+LRZJVCKCETWlONbZghZqaB2tOU0D9TRU+1Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tuf\\Source\\Repos\\ExamC-.net\\Tests\\Tests.csproj",
+  "projectFilePath": "C:\\Users\\tuf\\source\\repos\\ExamC-.net\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tuf\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\tuf\\.nuget\\packages\\microsoft.codecoverage\\17.7.1\\microsoft.codecoverage.17.7.1.nupkg.sha512",

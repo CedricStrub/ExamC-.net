@@ -14,25 +14,25 @@ namespace Model
         {
         
         }
-        public ApplicationDbContext()
-        {
-            // this.Database.SetConnectionString();
-        }
+        //public ApplicationDbContext()
+        //{
+        //    this.Database.GetConnectionString();
+        //}
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (optionsBuilder == null)
-            {
-                optionsBuilder = new DbContextOptionsBuilder();
-            }
-            if (!optionsBuilder.IsConfigured)
-            {
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    if (optionsBuilder == null)
+        //    {
+        //        optionsBuilder = new DbContextOptionsBuilder();
+        //    }
+        //    if (!optionsBuilder.IsConfigured)
+        //    {
 
-                var cs = "Server=localhost;Database=ExamCCI_2023;port=3307;user=ExamCCI_2023;password=ExamCCI_2023";
-                optionsBuilder.UseMySql(cs, ServerVersion.AutoDetect(cs));
-                base.OnConfiguring(optionsBuilder);
-            }
-        }
+        //        var cs = "Server=localhost;Database=ExamCCI_2023;port=3306;user=root;password=cedric;";
+        //        optionsBuilder.UseMySql(cs, ServerVersion.AutoDetect(cs));
+        //        base.OnConfiguring(optionsBuilder);
+        //    }
+        //}
     }
 
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tuf\\Source\\Repos\\ExamC-.net\\ExamCCI_2023\\ExamCCI_2023.csproj": {}
+    "C:\\Users\\tuf\\source\\repos\\ExamC-.net\\ExamCCI_2023\\ExamCCI_2023.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tuf\\Source\\Repos\\ExamC-.net\\ExamCCI_2023\\ExamCCI_2023.csproj": {
+    "C:\\Users\\tuf\\source\\repos\\ExamC-.net\\ExamCCI_2023\\ExamCCI_2023.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tuf\\Source\\Repos\\ExamC-.net\\ExamCCI_2023\\ExamCCI_2023.csproj",
+        "projectUniqueName": "C:\\Users\\tuf\\source\\repos\\ExamC-.net\\ExamCCI_2023\\ExamCCI_2023.csproj",
         "projectName": "ExamCCI_2023",
-        "projectPath": "C:\\Users\\tuf\\Source\\Repos\\ExamC-.net\\ExamCCI_2023\\ExamCCI_2023.csproj",
+        "projectPath": "C:\\Users\\tuf\\source\\repos\\ExamC-.net\\ExamCCI_2023\\ExamCCI_2023.csproj",
         "packagesPath": "C:\\Users\\tuf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tuf\\Source\\Repos\\ExamC-.net\\ExamCCI_2023\\obj\\",
+        "outputPath": "C:\\Users\\tuf\\source\\repos\\ExamC-.net\\ExamCCI_2023\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\tuf\\Source\\Repos\\ExamC-.net\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\tuf\\Source\\Repos\\ExamC-.net\\Model\\Model.csproj"
+              "C:\\Users\\tuf\\source\\repos\\ExamC-.net\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\tuf\\source\\repos\\ExamC-.net\\Model\\Model.csproj"
               }
             }
           }
@@ -51,11 +51,11 @@
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[7.0.14, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[7.0.14, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
@@ -101,14 +101,14 @@
         }
       }
     },
-    "C:\\Users\\tuf\\Source\\Repos\\ExamC-.net\\Model\\Model.csproj": {
+    "C:\\Users\\tuf\\source\\repos\\ExamC-.net\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tuf\\Source\\Repos\\ExamC-.net\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\tuf\\source\\repos\\ExamC-.net\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\tuf\\Source\\Repos\\ExamC-.net\\Model\\Model.csproj",
+        "projectPath": "C:\\Users\\tuf\\source\\repos\\ExamC-.net\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\tuf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tuf\\Source\\Repos\\ExamC-.net\\Model\\obj\\",
+        "outputPath": "C:\\Users\\tuf\\source\\repos\\ExamC-.net\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -145,6 +145,12 @@
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
