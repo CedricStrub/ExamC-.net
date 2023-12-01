@@ -20,7 +20,15 @@ namespace ExamCCI_2023.Pages.Student
 
         public IList<Model.Student> Student { get; set; } = default!;
 
-        
+        public async Task OnGetAsync()
+        {
+            if (_context.Students != null)
+            {
+                Student = await _context.Students
+                                .ToListAsync();
+
+            }
+        }
 
     }
 }
